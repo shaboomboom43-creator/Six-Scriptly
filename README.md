@@ -1,4 +1,4 @@
-# SCRIPTLY // 628
+# SIX-SCRIPTLY // 628
 
 Retro-cyber developer console for testing your own Roblox experiences: movement and physics tools, ESP, NPC targeting tests, lighting and camera overrides, plus server-authoritative developer actions.
 
@@ -7,7 +7,7 @@ Retro-cyber developer console for testing your own Roblox experiences: movement 
 With the repository **public**, run this one line while inside your own experience:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shaboomboom43-creator/Scriptly/main/ScriptlyLoader.lua"))()
+load ts shet
 ```
 
 The loader downloads `ScriptlyClient.lua` (a single file), compiles it and starts it. It works with executors that offer `game:HttpGet` or any of the common `request` functions, and with `loadstring` or `load`. Running it again replaces the previous copy instead of stacking up.
