@@ -7,7 +7,7 @@ Retro-cyber developer console for testing your own Roblox experiences: movement 
 With the repository **public**, run this one line while inside your own experience:
 
 ```lua
-load ts shet
+loadstring(game:HttpGet("https://github.com/shaboomboom43-creator/Six-Scriptly"))()
 ```
 
 The loader downloads `ScriptlyClient.lua` (a single file), compiles it and starts it. It works with executors that offer `game:HttpGet` or any of the common `request` functions, and with `loadstring` or `load`. Running it again replaces the previous copy instead of stacking up.
